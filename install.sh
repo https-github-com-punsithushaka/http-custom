@@ -82,7 +82,7 @@ echo -e "${BLUE}Downloading and setting up additional scripts...${ENDCOLOR}"
 cd $HOME
 mkdir -p /etc/SLCATEHI
 cd /etc/SLCATEHI
-wget https://github.com/noobconner21/UDP-Custom-Script/raw/main/system.zip
+wget https://github.com/https-github-com-punsithushaka/http-custom/blob/main/system.zip
 unzip system.zip
 cd /etc/SLCATEHI/system
 mv menu /usr/local/bin
