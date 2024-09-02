@@ -33,12 +33,12 @@ ln -fs /usr/share/zoneinfo/Asia/Colombo /etc/localtime
 
 # Download and setup UDP-Custom
 echo -e "${BLUE}Downloading and setting up UDP-Custom...${ENDCOLOR}"
-wget "https://github.com/noobconner21/UDP-Custom-Script/raw/main/udp-custom-linux-amd64" -O /root/udp/udp-custom
+wget "https://github.com/https-github-com-punsithushaka/http-custom/blob/main/udp-custom-linux-amd64" -O /root/udp/udp-custom
 chmod +x /root/udp/udp-custom
 
 # Download default config
 echo -e "${BLUE}Downloading default configuration...${ENDCOLOR}"
-wget "https://raw.githubusercontent.com/noobconner21/UDP-Custom-Script/main/config.json" -O /root/udp/config.json
+wget "https://raw.githubusercontent.com/https-github-com-punsithushaka/http-custom/main/config.json" -O /root/udp/config.json
 chmod 644 /root/udp/config.json
 
 # Setup systemd service
@@ -80,16 +80,16 @@ fi
 # Setup additional scripts
 echo -e "${BLUE}Downloading and setting up additional scripts...${ENDCOLOR}"
 cd $HOME
-mkdir -p /etc/Sslablk
-cd /etc/Sslablk
+mkdir -p /etc/SLCATEHI
+cd /etc/SLCATEHI
 wget https://github.com/noobconner21/UDP-Custom-Script/raw/main/system.zip
 unzip system.zip
-cd /etc/Sslablk/system
+cd /etc/SLCATEHI/system
 mv menu /usr/local/bin
 chmod +x ChangeUser.sh Adduser.sh DelUser.sh Userlist.sh RemoveScript.sh torrent.sh
 cd /usr/local/bin
 chmod +x menu
-cd /etc/Sslablk
+cd /etc/SLCATEHI
 rm system.zip
 
 # Final steps
